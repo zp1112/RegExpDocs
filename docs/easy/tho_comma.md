@@ -31,6 +31,15 @@ const pat = new RegExp('(?=(\\B\\d{3})+$)', 'g');
 8. `replace()`String对象的方法，作用是替换与正则表达式匹配的子串。
 9. `\B`是表示匹配非单词边界的元字符，与其互为补集的元字符是\b，表示匹配单词边界。
 
+### toLocalString
+
+emmmmm,其实，Number.prototype.toLocalString方法可以将数字变成千分位逗号隔开的字符串。
+
+```js
+const num = 2333333;
+num.toLocalString(); // 2,333,333
+```
+
 ### 转载链接
 
 感谢这篇博主的分享
